@@ -6,14 +6,9 @@ La idea de este proyecto es aprender a usar y pensar aplicaciones javascript mie
 
 ## Código
 
-El contenido de este proyecto esta organizado en los siguientes pasos
+Trabajaremos en la carpeta workplace:
+[link](./workplace)
 
-1. [Paso 1](./paso-1)
-2. [Paso 2](./paso-2)
-2. [Paso 3](./paso-3) 
-3. [Paso 4](./paso-4)
-4. [Paso 5](./paso-5)
-   
 ## Contenido
 
 El contenido de este proyecto esta organizado en los siguientes pasos
@@ -25,4 +20,3 @@ El contenido de este proyecto esta organizado en los siguientes pasos
 5. [Funciones Avanzadas](./docs/04-funciones-avanzadas.md)
 6. [Modelando la calculadora en un objeto](./docs/05-objetos.md)
 7. [Usando jquery para manejo del DOM](./docs/06-jquery.md)
-8. [Calculadora con memoria]
