@@ -17,5 +17,7 @@ Este es el layout basico que queremos lograr en este paso.
 ![Layout](./assets/layout.png)
 
 Tener en cuenta la estructura actual:
+
 ![Layout first childs](./assets/layout-first.png)
+
 ![Layout second childs](./assets/layout-second.png)
