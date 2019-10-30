@@ -24,7 +24,7 @@ Este estado tiene que verse reflejado en el display. Vamos a escribir una funcio
 
 ```javascript
 function actualizarDisplay() {
-  document.getElementById("display").value = display;
+  document.getElementById("display").innerText = display;
 }
 
 window.onload = function() {
