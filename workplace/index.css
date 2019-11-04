@@ -1,0 +1,55 @@
+.calculadora {
+  width: 300px;
+  height: 540px;
+  background-color:black;
+  color: white;
+}
+.flexbox-base {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+.botones__contenedor{
+  width: 75%;
+}
+.operadores--numeros
+{
+  flex-direction: row-reverse;
+}
+.operadores--basicos{
+  width: 25%;
+}
+.operadores--especiales .boton {
+  background-color: #a4a4a4;
+  color: black;
+}
+.boton {
+  width: 65px;
+  border-radius: 50%;
+  height: 65px;
+  color:white;
+  background-color:#333333;
+  border: none;
+  margin: 5px;
+  font-size: 24px;
+}
+.doble{
+  width: 140px;
+  border-radius: 50px;
+  text-align: left;
+  padding-left: 11%;
+
+}
+.operadores--basicos .boton{
+   background-color:#ea9d31;
+}
+.visor{
+   height: 160px;
+}
+.visor__input {
+  text-align: right;
+  font-size: 60px;
+  line-height: 160px;
+  margin-right: 15px;
+}

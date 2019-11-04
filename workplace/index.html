@@ -1,43 +1,44 @@
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Calculadora</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body class="flexbox-base">
-  <div class="calculadora">
-    <div class="visor">
-      <div class="visor__input" id="display">0</div>
-    </div>
-    <div class="botones flexbox-base">
-      <div class="flexbox-base botones__contenedor">
-        <div class="flexbox-base operadores--especiales"> 
-          <button class="boton">C</button>
-          <button class="boton">+/-</button>  
-          <button class="boton">%</button>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="flexbox-base">
+    <div class="calculadora">
+      <div class="visor">
+        <div class="visor__input" id="display">0</div>
+      </div>
+      <div class="botones flexbox-base">
+        <div class="flexbox-base botones__contenedor">
+          <div class="flexbox-base operadores--especiales">
+            <button onclick="reset()" class="boton">C</button>
+            <button class="boton">+/-</button>
+            <button class="boton">%</button>
+          </div>
+          <div class="flexbox-base operadores--numeros">
+            <button onclick="introducirValor(9)" class="boton">9</button>
+            <button onclick="introducirValor(8)" class="boton">8</button>
+            <button onclick="introducirValor(7)" class="boton">7</button>
+            <button onclick="introducirValor(6)" class="boton">6</button>
+            <button onclick="introducirValor(5)" class="boton">5</button>
+            <button onclick="introducirValor(4)" class="boton">4</button>
+            <button onclick="introducirValor(3)" class="boton">3</button>
+            <button onclick="introducirValor(2)" class="boton">2</button>
+            <button onclick="introducirValor(1)" class="boton">1</button>
+            <button onclick="introducirValor('.')" class="boton">.</button>
+            <button onclick="introducirValor(0)" class="boton doble">0</button>
+          </div>
         </div>
-        <div class="flexbox-base operadores--numeros">
-          <button class="boton">9</button>
-          <button class="boton">8</button>
-          <button class="boton">7</button>
-          <button class="boton">6</button>
-          <button class="boton">5</button>
-          <button class="boton">4</button>
-          <button class="boton">3</button>
-          <button class="boton">2</button>
-          <button class="boton">1</button>
-          <button class="boton">.</button>
-          <button class="boton doble">0</button>
+        <div class="flexbox-base operadores--basicos">
+          <button onclick="operacion('x')" class="boton">X</button>
+          <button onclick="operacion('/')" class="boton">/</button>
+          <button onclick="operacion('-')" class="boton">-</button>
+          <button onclick="operacion('+')" class="boton">+</button>
+          <button onclick="igual()" class="boton">=</button>
         </div>
       </div>
-      <div class="flexbox-base operadores--basicos">
-          <button class="boton">/</button>
-          <button class="boton">X</button>
-          <button class="boton">-</button>
-          <button class="boton">+</button>
-          <button class="boton">=</button>
-      </div>
     </div>
-  </div>  
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
